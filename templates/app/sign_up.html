@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="{% static 'css/sign-up.css' %}">
+</head>
+<body>
+	<h1>Sign Up</h1>
+	<form class="bigil" onsubmit="signin()" action="http://127.0.0.1:8000/app/login/">
+		<table>
+			<tr>
+				<td>First Name : </td>
+				<td>
+					<input type="text" name="your first name" id="fn">
+				</td>
+				<td>Last Name :</td>
+				<td>
+					<input type="text" name="Enter your last name" id="ln">
+				</td>
+			</tr>
+			<tr>
+				<td>Username :</td>
+				<td>
+					<input type="text" name="Enter your username" id="us">
+				</td>
+				<td>Password : </td>
+				<td>
+					<input type="password" name="Enter your password" id="pass">
+				</td>
+			</tr>
+			<tr>
+				<td>Email Address :</td>
+				<td>
+					<input type="email" name="Enter your email address" id="ed">
+				</td>
+				<td>Phone/Contact Number:</td>
+				<td>
+					<input type="number" name="Enter your number" id="pn">
+				</td>
+			</tr>
+
+		</table>
+		<button class="button button">Sign Up</button>
+	</form>
+	<script>
+        function signin() {
+     location.href = 'http://127.0.0.1:8000/app/login/';
+    }
+    </script>
+</body>
+</html>

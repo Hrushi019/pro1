@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+}
+body{
+    background: url("/static/images/4.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+    
+}
+h1{
+    text-shadow: 4px 3px 3px crimson;
+    padding-left: 510px;
+    font-size: 50px;
+    color: cornflowerblue;
+    margin-top: 75px;
+    font-size: 90px;
+}
+.bigil{
+    text-decoration: none;
+    border-style: double;
+    border-width: 5px;
+    border-color: aqua;
+    margin-top: 80px;
+    margin-left: 290px;
+    font-size: 38px;
+    color: coral;
+    padding-left: 260px;
+    margin-right: 240px;
+    border-radius: 10px 15px 10px 15px;
+    padding-top: 100px;
+}
+
+.button{
+    background-color: cornflowerblue;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 0px 5px 0px 5px;
+}
+.button:hover{
+    background-color: indianred;
+    border-radius: 0px 10px 0px 10px;
+}
